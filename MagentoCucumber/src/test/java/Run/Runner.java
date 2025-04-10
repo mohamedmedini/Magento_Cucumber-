@@ -14,7 +14,7 @@ import io.cucumber.junit.CucumberOptions;
 	glue={"Hooks","StepDefinition"},
 	
 	publish= true,
-    plugin ={"pretty","html:target/htmlreport.html","json:target/report","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+    plugin ={"pretty","html:target/htmlreport.html","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm","json:target/report","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 	
 	)
 
